@@ -17,6 +17,8 @@
 ## Deploy
 1. `npm install -g serverless`
 2. Add `.env` file with AWS IAM credentials
+    1. `AWS_ACCESS_KEY_ID=key_id`
+    2. `AWS_SECRET_ACCESS_KEY=key`
 3. `serverless`
 4. Navigate to the address that gets output in the console.
 
